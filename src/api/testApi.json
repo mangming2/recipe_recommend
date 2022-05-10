@@ -1,0 +1,233 @@
+[
+	{
+		"id": 1,
+		"option": "",
+		"question": "집에 있는 양념 개수는?",
+		"answers": [
+			{
+				"type": "E",
+				"content": "3개 이하"
+			},
+			{
+				"type": "I",
+				"content": "4~9개"
+			}
+            ,
+			{
+				"type": "I",
+				"content": "10개 이상"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"option": "EI",
+		"question": "일주일에 집밥을 해먹는 횟수는?",
+		"answers": [
+			{
+				"type": "E",
+
+				"content": "3번 이하"
+			},
+			{
+				"type": "I",
+				"content": "4~9번"
+			},
+			{
+				"type": "I",
+				"content": "10번 이상"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"option": "EI",
+		"question": "다음 중 양식도로 알맞은 것은?",
+		"answers": [
+			{
+				"type": "E",
+				"content": "사진1"
+			},
+			{
+				"type": "I",
+				"content": "사진2"
+			},
+			{
+				"type": "I",
+				"content": "사진3"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"option": "SN",
+		"question": "다음 중 마라탕에 들어가지 않는 향신료는?",
+		"answers": [
+			{
+				"type": "S",
+				"content": "산초"
+			},
+			{
+				"type": "N",
+				"content": "마라"
+			},
+			{
+				"type": "N",
+				"content": "쯔란"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"option": "SN",
+		"question": "요리할 때 플레이팅을 하나요?",
+		"answers": [
+			{
+				"type": "S",
+				"content": "예"
+			},
+			{
+				"type": "N",
+				"content": "아니요"
+			},
+			{
+				"type": "N",
+				"content": "가끔"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"option": "SN",
+		"question": "다음 중 간장이 들어가지 않는 요리는?",
+		"answers": [
+			{
+				"type": "S",
+				"content": "잡채"
+			},
+			{
+				"type": "N",
+				"content": "떡볶이"
+			},
+			{
+				"type": "N",
+				"content": "계란말이"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"option": "TF",
+		"question": "냉장고 안에 있는 재료를 몇 초 안에 전부 셀 수 있나요?",
+		"answers": [
+			{
+				"type": "T",
+				"content": "10초 이내"
+			},
+			{
+				"type": "F",
+				"content": "30초~1분"
+			},
+			{
+				"type": "F",
+				"content": "2분 이상"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"option": "TF",
+		"question": "친구가 향신료를 선물로 준다면 가장 받고 싶은 향신료는?",
+		"answers": [
+			{
+				"type": "T",
+				"content": "소금"
+			},
+			{
+				"type": "F",
+				"content": "페페론치노"
+			}
+            ,
+			{
+				"type": "F",
+				"content": "마라"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"option": "TF",
+		"question": "레시피를 안 보고 만들 수 있는 요리 개수는?",
+		"answers": [
+			{
+				"type": "T",
+				"content": "3개 이하"
+			},
+			{
+				"type": "F",
+				"content": "4~9개"
+			},
+			{
+				"type": "F",
+				"content": "10개 이상"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"option": "JP",
+		"question": "다음 중 밥을 할 때의 물 양으로 적절한 것은?",
+		"answers": [
+			{
+				"type": "J",
+				"content": "사진 1"
+			},
+			{
+				"type": "P",
+				"content": "사진 2"
+			},
+			{
+				"type": "P",
+				"content": "사진 3"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"option": "JP",
+		"question": "다음 중 요리의 재료가 될 수 없는 것은?",
+		"answers": [
+			{
+				"type": "J",
+				"content": "사진 1"
+			},
+			{
+				"type": "P",
+				"content": "사진 2"
+			},
+			{
+				"type": "P",
+				"content": "사진 3"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"option": "JP",
+		"question": "'양파, 달걀'을 가지고 해먹을 수 있는 요리는?",
+		"answers": [
+			{
+				"type": "J",
+				"content": "사진 1"
+			},
+			{
+				"type": "P",
+				"content": "사진 2"
+			},
+			{
+				"type": "P",
+				"content": "사진 3"
+			}
+		]
+	}
+]
