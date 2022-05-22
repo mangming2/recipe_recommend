@@ -2,39 +2,44 @@
 	{
 		"id": 1,
 		"option": "",
-		"question": "집에 있는 양념 개수는?",
+		"question": "다음 중 양식도로 알맞은 것은?",
 		"answers": [
 			{
-				"type": "E",
-				"content": "3개 이하"
+				"score": -5,
+				"content1": "img/Q1/q1a.jpeg",
+				"content2": "ㅇ"
+				
 			},
 			{
-				"type": "I",
-				"content": "4~9개"
+				"score": -5,
+				"content1": "img/Q1/q1a.jpeg",
+				"content2": "ㅇ"
 			}
             ,
 			{
-				"type": "I",
-				"content": "10개 이상"
+				"score": 10,
+				"content1": "img/Q1/q1a.jpeg",
+				"content2": "ㅇ"
 			}
 		]
 	},
 	{
 		"id": 2,
-		"option": "EI",
+		"option": "",
 		"question": "일주일에 집밥을 해먹는 횟수는?",
 		"answers": [
 			{
-				"type": "E",
-
-				"content": "3번 이하"
+				"score": "E",
+				"content1": "none",
+				"content2": "하이이"
 			},
 			{
-				"type": "I",
-				"content": "4~9번"
+				"score": "I",
+				"content1": "none",
+				"content2": "하이이"
 			},
 			{
-				"type": "I",
+				"score": "I",
 				"content": "10번 이상"
 			}
 		]
@@ -45,15 +50,15 @@
 		"question": "다음 중 양식도로 알맞은 것은?",
 		"answers": [
 			{
-				"type": "E",
+				"score": "E",
 				"content": "사진1"
 			},
 			{
-				"type": "I",
+				"score": "I",
 				"content": "사진2"
 			},
 			{
-				"type": "I",
+				"score": "I",
 				"content": "사진3"
 			}
 		]
@@ -64,15 +69,15 @@
 		"question": "다음 중 마라탕에 들어가지 않는 향신료는?",
 		"answers": [
 			{
-				"type": "S",
+				"score": "S",
 				"content": "산초"
 			},
 			{
-				"type": "N",
+				"score": "N",
 				"content": "마라"
 			},
 			{
-				"type": "N",
+				"score": "N",
 				"content": "쯔란"
 			}
 		]
@@ -83,15 +88,15 @@
 		"question": "요리할 때 플레이팅을 하나요?",
 		"answers": [
 			{
-				"type": "S",
+				"score": "S",
 				"content": "예"
 			},
 			{
-				"type": "N",
+				"score": "N",
 				"content": "아니요"
 			},
 			{
-				"type": "N",
+				"score": "N",
 				"content": "가끔"
 			}
 		]
@@ -102,15 +107,15 @@
 		"question": "다음 중 간장이 들어가지 않는 요리는?",
 		"answers": [
 			{
-				"type": "S",
+				"score": "S",
 				"content": "잡채"
 			},
 			{
-				"type": "N",
+				"score": "N",
 				"content": "떡볶이"
 			},
 			{
-				"type": "N",
+				"score": "N",
 				"content": "계란말이"
 			}
 		]
@@ -121,15 +126,15 @@
 		"question": "냉장고 안에 있는 재료를 몇 초 안에 전부 셀 수 있나요?",
 		"answers": [
 			{
-				"type": "T",
+				"score": "T",
 				"content": "10초 이내"
 			},
 			{
-				"type": "F",
+				"score": "F",
 				"content": "30초~1분"
 			},
 			{
-				"type": "F",
+				"score": "F",
 				"content": "2분 이상"
 			}
 		]
@@ -140,16 +145,16 @@
 		"question": "친구가 향신료를 선물로 준다면 가장 받고 싶은 향신료는?",
 		"answers": [
 			{
-				"type": "T",
+				"score": "T",
 				"content": "소금"
 			},
 			{
-				"type": "F",
+				"score": "F",
 				"content": "페페론치노"
 			}
             ,
 			{
-				"type": "F",
+				"score": "F",
 				"content": "마라"
 			}
 		]
@@ -160,15 +165,15 @@
 		"question": "레시피를 안 보고 만들 수 있는 요리 개수는?",
 		"answers": [
 			{
-				"type": "T",
+				"score": "T",
 				"content": "3개 이하"
 			},
 			{
-				"type": "F",
+				"score": "F",
 				"content": "4~9개"
 			},
 			{
-				"type": "F",
+				"score": "F",
 				"content": "10개 이상"
 			}
 		]
@@ -179,15 +184,15 @@
 		"question": "다음 중 밥을 할 때의 물 양으로 적절한 것은?",
 		"answers": [
 			{
-				"type": "J",
+				"score": "J",
 				"content": "사진 1"
 			},
 			{
-				"type": "P",
+				"score": "P",
 				"content": "사진 2"
 			},
 			{
-				"type": "P",
+				"score": "P",
 				"content": "사진 3"
 			}
 		]
@@ -198,15 +203,15 @@
 		"question": "다음 중 요리의 재료가 될 수 없는 것은?",
 		"answers": [
 			{
-				"type": "J",
+				"score": "J",
 				"content": "사진 1"
 			},
 			{
-				"type": "P",
+				"score": "P",
 				"content": "사진 2"
 			},
 			{
-				"type": "P",
+				"score": "P",
 				"content": "사진 3"
 			}
 		]
@@ -217,15 +222,15 @@
 		"question": "'양파, 달걀'을 가지고 해먹을 수 있는 요리는?",
 		"answers": [
 			{
-				"type": "J",
+				"score": "J",
 				"content": "사진 1"
 			},
 			{
-				"type": "P",
+				"score": "P",
 				"content": "사진 2"
 			},
 			{
-				"type": "P",
+				"score": "P",
 				"content": "사진 3"
 			}
 		]

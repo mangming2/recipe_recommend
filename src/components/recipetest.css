@@ -36,3 +36,10 @@
     border-color: #d0d0d0;
     font-weight: 600;
 }
+
+img{
+    
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}

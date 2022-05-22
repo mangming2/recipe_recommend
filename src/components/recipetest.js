@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Questions from '../api/testApi.json';
 import { useNavigate } from 'react-router-dom';
 
+
+
 function Test(){
     const [num, setNum] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(1);
@@ -13,33 +15,34 @@ function Test(){
 
     const navigate = useNavigate();
 
+    
     const nextSlideFir = () => {
-        setScore(score + Questions[num].answers[0].type);
+        setScore(score + Questions[num].answers[0].score);
         setNum(num + 1);
         setCurrentSlide(currentSlide + 1);
         slideRef.current.style.transform += 'translateX(-100vw)';
         if(num===11){
-            navigate("/result");
+            navigate(`/result/${score}`);
         }
         
     };
     const nextSlideSec = () => {
-        setScore(score + Questions[num].answers[1].type);
+        setScore(score + Questions[num].answers[1].score);
         setNum(num + 1);
         setCurrentSlide(currentSlide + 1);
         slideRef.current.style.transform += 'translateX(-100vw)';
         if(num===11){
-            navigate("/result");
+            navigate(`/result/${score}`);
         }
     };
-
+    
     const nextSlideThi = () => {
-        setScore(score + Questions[num].answers[2].type);
+        setScore(score + Questions[num].answers[2].score);
         setNum(num + 1);
         setCurrentSlide(currentSlide + 1);
         slideRef.current.style.transform += 'translateX(-100vw)';
         if(num===11){
-            navigate("/result");
+            navigate(`/result/${score}`);
         }
     };
 
@@ -58,8 +61,17 @@ function Test(){
                 result.push(count);
             }
         }
-
-    };
+    
+    }
+    const imgChecker=(a1,a2)=>{
+        if (a1==="none"){
+            return false
+        }
+        else{
+            return true
+        }
+    }
+    
 
     return (
         <>
@@ -68,6 +80,7 @@ function Test(){
                     <>
                         <div className="slider" ref={slideRef}>
                             {Questions.map((item) => {
+                                const imgCheck=imgChecker(item.answers[0].content1,item.answers[0].content2)
                                 return (
                                     <div
                                         className="content"
@@ -92,19 +105,26 @@ function Test(){
                                                 className='test__btn'
                                                 onClick={nextSlideFir}
                                             >
-                                                {item.answers[0].content}
+                                                <div>
+                                                    {imgCheck? <img src={item.answers[0].content1} alt="profile"/> :<span>{item.answers[0].content2}</span>}
+                                                </div>
+                                                
                                             </button>
                                             <button
                                                 className='test__btn'
                                                 onClick={nextSlideSec}
                                             >
-                                                {item.answers[1].content}
+                                                <div>
+                                                    {imgCheck? <img src={item.answers[1].content1} alt="profile"/> :<span>{item.answers[1].content2}</span>}
+                                                </div>
                                             </button>
                                             <button
                                                 className='test__btn'
                                                 onClick={nextSlideThi}
                                             >
-                                                {item.answers[1].content}
+                                                <div>
+                                                    {imgCheck? <img src={item.answers[2].content1} alt="profile"/> :<span>{item.answers[2].content2}</span>}
+                                                </div>
                                             </button>
                                         </article>
                                     </div>
