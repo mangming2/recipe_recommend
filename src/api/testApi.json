@@ -3,235 +3,278 @@
 		"id": 1,
 		"option": "",
 		"question": "다음 중 양식도로 알맞은 것은?",
+		"img": "img/Q1/문제1_문제 일러스트.png",
 		"answers": [
 			{
 				"score": -5,
 				"content1": "img/Q1/q1a.jpeg",
-				"content2": "ㅇ"
+				"content2": ""
 				
 			},
 			{
 				"score": -5,
-				"content1": "img/Q1/q1a.jpeg",
-				"content2": "ㅇ"
+				"content1": "img/Q1/q1b.jpeg",
+				"content2": ""
 			}
             ,
 			{
 				"score": 10,
-				"content1": "img/Q1/q1a.jpeg",
-				"content2": "ㅇ"
+				"content1": "img/Q1/q1c.jpeg",
+				"content2": ""
 			}
 		]
 	},
 	{
 		"id": 2,
 		"option": "",
-		"question": "일주일에 집밥을 해먹는 횟수는?",
+		"question": "다음 중 마라탕에 들어가지 않는 향신료는?",
+		"img": "img/Q2/문제2_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "E",
+				"score": -5,
 				"content1": "none",
-				"content2": "하이이"
+				"content2": "산초"
 			},
 			{
-				"score": "I",
+				"score": -5,
 				"content1": "none",
-				"content2": "하이이"
+				"content2": "마라"
 			},
 			{
-				"score": "I",
-				"content": "10번 이상"
+				"score": 5,
+				"content1": "none",
+				"content2": "쯔란"
 			}
 		]
 	},
 	{
 		"id": 3,
-		"option": "EI",
-		"question": "다음 중 양식도로 알맞은 것은?",
+		"option": "",
+		"question": "다음 중 간장이 들어가지 않는 요리는?",
+		"img": "img/Q3/문제3_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "E",
-				"content": "사진1"
+				"score": -10,
+				"content1": "none",
+				"content2": "잡채"
 			},
 			{
-				"score": "I",
-				"content": "사진2"
+				"score": -5,
+				"content1": "none",
+				"content2": "떡볶이"
 			},
 			{
-				"score": "I",
-				"content": "사진3"
+				"score": 0,
+				"content1": "none",
+				"content2": "계란말이"
 			}
 		]
 	},
 	{
 		"id": 4,
-		"option": "SN",
-		"question": "다음 중 마라탕에 들어가지 않는 향신료는?",
+		"option": "",
+		"question": "친구에게 향신료를 선물로 받는다면 가장 받고 싶은 향신료는?",
+		"img": "img/Q4/문제4_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "S",
-				"content": "산초"
+				"score": -5,
+				"content1": "none",
+				"content2": "소금"
 			},
 			{
-				"score": "N",
-				"content": "마라"
+				"score": 0,
+				"content1": "none",
+				"content2": "페퍼론치노"
 			},
 			{
-				"score": "N",
-				"content": "쯔란"
+				"score":0,
+				"content1": "none",
+				"content2": "팔각"
 			}
 		]
 	},
 	{
 		"id": 5,
-		"option": "SN",
-		"question": "요리할 때 플레이팅을 하나요?",
+		"option": "",
+		"question": "다음 중 요리의 재료가 될 수 없는 것은?",
+		"img": "img/Q5/문제5_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "S",
-				"content": "예"
+				"score": 5,
+				"content1": "img/Q5/q5a.jpeg",
+				"content2": ""
 			},
 			{
-				"score": "N",
-				"content": "아니요"
+				"score": -5,
+				"content1": "img/Q5/q5b.jpeg",
+				"content2": ""
 			},
 			{
-				"score": "N",
-				"content": "가끔"
+				"score": -10,
+				"content1": "img/Q5/q5c.jpeg",
+				"content2": ""
 			}
 		]
 	},
 	{
 		"id": 6,
-		"option": "SN",
-		"question": "다음 중 간장이 들어가지 않는 요리는?",
+		"option": "",
+		"question": "다음 중 페페론치노가 들어가지 않는 요리는?",
+		"img": "img/Q6/문제6_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "S",
-				"content": "잡채"
+				"score": 5,
+				"content1": "none",
+				"content2": "알리오 올리오"
 			},
 			{
-				"score": "N",
-				"content": "떡볶이"
+				"score": -5,
+				"content1": "none",
+				"content2": "감바스"
 			},
 			{
-				"score": "N",
-				"content": "계란말이"
+				"score": 0,
+				"content1": "none",
+				"content2": "나시고랭"
 			}
 		]
 	},
 	{
 		"id": 7,
-		"option": "TF",
-		"question": "냉장고 안에 있는 재료를 몇 초 안에 전부 셀 수 있나요?",
+		"option": "",
+		"question": "다음 중 어슷썰기는?",
+		"img": "img/Q7/문제7_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "T",
-				"content": "10초 이내"
+				"score": 10,
+				"content1": "img/Q7/q7a.jpg",
+				"content2": ""
 			},
 			{
-				"score": "F",
-				"content": "30초~1분"
+				"score": -5,
+				"content1": "img/Q7/q7b.jpg",
+				"content2": ""
 			},
 			{
-				"score": "F",
-				"content": "2분 이상"
+				"score": -5,
+				"content1": "img/Q7/q7c.jpg",
+				"content2": ""
 			}
 		]
 	},
 	{
 		"id": 8,
-		"option": "TF",
-		"question": "친구가 향신료를 선물로 준다면 가장 받고 싶은 향신료는?",
+		"option": "",
+		"question": "다음 중 빵을 만들 때 사용하는 밀가루의 종류는?",
+		"img": "img/Q8/문제8_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "T",
-				"content": "소금"
+				"score": 5,
+				"content1": "none",
+				"content2": "강력분"
 			},
 			{
-				"score": "F",
-				"content": "페페론치노"
+				"score": 0,
+				"content1": "none",
+				"content2": "중력분"
 			}
             ,
 			{
-				"score": "F",
-				"content": "마라"
+				"score": 0,
+				"content1": "none",
+				"content2": "박력분"
 			}
 		]
 	},
 	{
 		"id": 9,
-		"option": "TF",
-		"question": "레시피를 안 보고 만들 수 있는 요리 개수는?",
+		"option": "",
+		"question": "다음 중 가람마살라를 사용하지 않는 음식은?",
+		"img": "img/Q9/문제9_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "T",
-				"content": "3개 이하"
+				"score": 5,
+				"content1": "none",
+				"content2": "치킨 가라아게"
 			},
 			{
-				"score": "F",
-				"content": "4~9개"
+				"score": -5,
+				"content1": "none",
+				"content2": "치킨 카레"
 			},
 			{
-				"score": "F",
-				"content": "10개 이상"
+				"score": -5,
+				"content1": "none",
+				"content2": "탄두리 치킨"
 			}
 		]
 	},
 	{
 		"id": 10,
-		"option": "JP",
-		"question": "다음 중 밥을 할 때의 물 양으로 적절한 것은?",
+		"option": "",
+		"question": "집에 있는 양념의 개수는?",
+		"img": "img/Q10/문제10_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "J",
-				"content": "사진 1"
+				"score": -5,
+				"content1": "none",
+				"content2": "3개 이하"
 			},
 			{
-				"score": "P",
-				"content": "사진 2"
+				"score": 0,
+				"content1": "none",
+				"content2": "4~9개"
 			},
 			{
-				"score": "P",
-				"content": "사진 3"
+				"score": 5,
+				"content1": "none",
+				"content2": "10개 이상"
 			}
 		]
 	},
 	{
 		"id": 11,
-		"option": "JP",
-		"question": "다음 중 요리의 재료가 될 수 없는 것은?",
+		"option": "",
+		"question": "일주일에 요리를 해먹는 횟수는?",
+		"img": "img/Q11/문제11_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "J",
-				"content": "사진 1"
+				"score": -5,
+				"content1": "none",
+				"content2": "3번 이하"
 			},
 			{
-				"score": "P",
-				"content": "사진 2"
+				"score": 0,
+				"content1": "none",
+				"content2": "4~9번"
 			},
 			{
-				"score": "P",
-				"content": "사진 3"
+				"score": 5,
+				"content1": "none",
+				"content2": "10번 이상"
 			}
 		]
 	},
 	{
 		"id": 12,
-		"option": "JP",
-		"question": "'양파, 달걀'을 가지고 해먹을 수 있는 요리는?",
+		"option": "",
+		"question": "레시피를 보지 않고 만들 수 있는 요리의 개수는?",
+		"img": "img/Q12/문제12_문제 일러스트.png",
 		"answers": [
 			{
-				"score": "J",
-				"content": "사진 1"
+				"score": -5,
+				"content1": "none",
+				"content2": "3번 이하"
 			},
 			{
-				"score": "P",
-				"content": "사진 2"
+				"score": 0,
+				"content1": "none",
+				"content2": "4~9개"
 			},
 			{
-				"score": "P",
-				"content": "사진 3"
+				"score": 5,
+				"content1": "none",
+				"content2": "10개 이상"
 			}
 		]
 	}

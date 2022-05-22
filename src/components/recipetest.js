@@ -10,19 +10,39 @@ function Test(){
     const [num, setNum] = useState(0);
     const [currentSlide, setCurrentSlide] = useState(1);
     const TOTAL_SLIDES = 12;
-    const [score, setScore] = useState([]);
+    const [score, setScore] = useState(0);
     const slideRef = createRef(null);
-
+    const [score_result,setScore_result]=useState(0);
     const navigate = useNavigate();
 
-    
+    const scoreChecker=(score)=>{
+        if(score<=10){
+            return -100
+        }
+        else if((score>10.1)&&score<=35){
+           return 50
+        }
+        else if((score>35.1)&&score<=60){
+           return 100
+        }
+        else if((score>60.1)&&score<=85){
+           return 150
+        }
+        else if((score>85.1)&&score<=110){
+           return 200
+        }
+    }
+
     const nextSlideFir = () => {
         setScore(score + Questions[num].answers[0].score);
         setNum(num + 1);
         setCurrentSlide(currentSlide + 1);
         slideRef.current.style.transform += 'translateX(-100vw)';
         if(num===11){
-            navigate(`/result/${score}`);
+            console.log("hi");
+            console.log(score);
+            console.log(scoreChecker(score));
+            navigate(`/result/${scoreChecker(score)}`);
         }
         
     };
@@ -32,7 +52,10 @@ function Test(){
         setCurrentSlide(currentSlide + 1);
         slideRef.current.style.transform += 'translateX(-100vw)';
         if(num===11){
-            navigate(`/result/${score}`);
+            console.log("hi");
+            console.log(score);
+            console.log(scoreChecker(score));
+            navigate(`/result/${scoreChecker(score)}`);
         }
     };
     
@@ -42,7 +65,11 @@ function Test(){
         setCurrentSlide(currentSlide + 1);
         slideRef.current.style.transform += 'translateX(-100vw)';
         if(num===11){
-            navigate(`/result/${score}`);
+            console.log("hi");
+            console.log(score);
+            
+            console.log(scoreChecker(score));
+            navigate(`/result/${scoreChecker(score)}`);
         }
     };
 
@@ -71,6 +98,8 @@ function Test(){
             return true
         }
     }
+
+    
     
 
     return (
@@ -97,6 +126,7 @@ function Test(){
                                             >
                                                 {item.question}
                                             </h1>
+                                            <img src={item.img} alt="profile"/>
                                         </div>
                                         <article
                                              className='test__btn__box'

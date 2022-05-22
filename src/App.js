@@ -19,7 +19,7 @@ function App (){
                     
                 </Route>
 
-                <Route path="/result" element={<Result/>}>
+                <Route path="/result/:score" element={<Result/>} component={Result}>
                     
                     </Route>
 
