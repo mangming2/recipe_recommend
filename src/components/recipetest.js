@@ -115,7 +115,7 @@ function Test(){
                                         className="content"
                                         key={item.id}
                                     >
-                                        <div >
+                                        <div  className='question_box' >
                                             <div
                                                 
                                             >

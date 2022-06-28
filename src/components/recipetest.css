@@ -1,3 +1,13 @@
+.question_box{
+     display: flex;
+     align-items: center;
+     flex-direction:column;
+     border: 5px solid ;
+    border-color: #26613D;
+    border-radius: 6px;
+     
+     
+}
 .slider {
     width: 1200vw;
 }
@@ -7,11 +17,12 @@
     float: left;
 }
 
-.test__question {
+.test_question{
     color: #4e4e4e;
     font-size: 1.4rem;
     font-weight: bolder;
     text-align: center;
+    
 }
 
 .test__btn__box {
@@ -26,15 +37,18 @@
     display: flex;
     justify-content: center;
     height: 45%;
+    align-items: center;
     margin: 1rem;
     padding: 1.2rem;
     box-sizing: border-box;
     background-color: #fff;
     color: rgba(110, 110, 110, 1);
-    border: 1px solid gray;
+    border: 5px solid ;
+    border-color: #26613D;
     border-radius: 6px;
-    border-color: #d0d0d0;
+    
     font-weight: 600;
+    
 }
 
 img{

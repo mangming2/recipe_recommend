@@ -7,9 +7,9 @@ import { useNavigate } from 'react-router-dom';
 const Result = (props) => {
     
     const { score } = useParams();
-    const nation = ResultApi[score];
+    const resultJongone = ResultApi[score];
 
-    if (!nation) {
+    if (!resultJongone) {
         return <div>존재하지 않는 결과입니다.</div>;
     }
     
@@ -19,8 +19,9 @@ const Result = (props) => {
             <div >
                 <div >
                     <div>
-                        <h2 >{nation.id}</h2>
-                        <h2>{nation.subject}</h2>
+                        <h2 >{resultJongone.id}</h2>
+                        <img src={resultJongone.img} alt="profile"/>
+                        <h2>{resultJongone.subject}</h2>
                         
                     </div>
                     
